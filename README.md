@@ -14,7 +14,7 @@
 
 ## Description
 
-This book search engine was overhauled to utilize Apollo as a wrapper for graphql for our server side CRUD actions, which ties into React for the client side. A logged in user is able to search for save and remove books from their favorites list.
+This book search engine was overhauled to utilize Apollo as a wrapper for graphql for our server side CRUD actions, which ties into React for the client side. A logged in user is able to searh, save and remove books from their favorites list.
 
 ## Installation
 
@@ -39,7 +39,7 @@ npm install
 
 ### Code Snippets
 
-TypeDefs for GraphQL
+TypeDefs for GraphQL.
 
 ```javascript
 const typeDefs = gql`
@@ -147,10 +147,6 @@ const resolvers = {
     },
   },
 };
-```
-
-```javascript
-
 ```
 
 ## User Information
