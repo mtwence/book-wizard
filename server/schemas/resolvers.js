@@ -36,7 +36,7 @@ const resolvers = {
       const token = signToken(user);
       return { token, user };
     },
-    
+
     saveBook: async (parent, book, context) => {
         if (context.user) {
           const updateBook = await User.findOneAndUpdate(
@@ -63,5 +63,3 @@ const resolvers = {
     },
   };
   module.exports = resolvers;
-},
-};
