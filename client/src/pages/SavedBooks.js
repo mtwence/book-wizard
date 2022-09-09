@@ -5,7 +5,8 @@ import Auth from "../utils/auth";
 import { removeBookId } from "../utils/localStorage";
 
 import { useQuery, useMutation } from "@apollo/client";
-import { REMOVE_BOOK, QUERY_ME  } from "../utils/mutations";
+import { REMOVE_BOOK } from "../utils/mutations";
+import { QUERY_ME} from "../utils/queries.js";
 
 
 const SavedBooks = () => {
